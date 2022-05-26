@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="453.0" prefWidth="659.0" style="-fx-background-color: coral;" styleClass="parent" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.TestController">
+   <children>
+      <Label layoutX="127.0" layoutY="117.0" prefHeight="74.0" prefWidth="359.0" text="Ti c Tac Toe" textFill="#dddcdc">
+         <font>
+            <Font name="Segoe UI Semibold Italic" size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="197.0" prefHeight="17.0" prefWidth="107.0" text="Loading..." textFill="#2c1717" />
+   </children>
+</AnchorPane>

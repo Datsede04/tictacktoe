@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="437.0" prefWidth="784.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.TicTacToeController">
+   <children>
+      <AnchorPane layoutX="459.0" prefHeight="437.0" prefWidth="340.0" style="-fx-background-color: coral;">
+         <children>
+            <Label layoutX="55.0" layoutY="20.0" prefHeight="64.0" prefWidth="180.0" text="Tic Tac Toe" textFill="#f5ecec">
+               <font>
+                  <Font name="Segoe UI Semibold" size="31.0" />
+               </font>
+               <effect>
+                  <Blend />
+               </effect>
+            </Label>
+            <Label layoutX="98.0" layoutY="240.0" prefHeight="17.0" prefWidth="29.0" text="win" textFill="#147226" />
+            <Label layoutX="170.0" layoutY="240.0" text="draw" textFill="#dde455" />
+            <Label layoutX="250.0" layoutY="240.0" text="lose" textFill="#d31414" />
+            <Label fx:id="ln1" layoutX="3.0" layoutY="266.0" prefHeight="17.0" prefWidth="64.0" text="lname" />
+            <Label fx:id="ln2" layoutX="3.0" layoutY="310.0" prefHeight="17.0" prefWidth="64.0" text="lname" />
+            <Label fx:id="w1" layoutX="98.0" layoutY="266.0" text="Label" />
+            <Label fx:id="w2" layoutX="99.0" layoutY="310.0" text="Label" />
+            <Label fx:id="d1" layoutX="170.0" layoutY="266.0" text="Label" />
+            <Label fx:id="d2" layoutX="170.0" layoutY="310.0" text="Label" />
+            <Label fx:id="l1" layoutX="247.0" layoutY="266.0" text="Label" />
+            <Label fx:id="l2" layoutX="247.0" layoutY="310.0" text="Label" />
+            <Button fx:id="start" layoutX="100.0" layoutY="194.0" mnemonicParsing="false" onAction="#start_on" style="-fx-background-color: chocolate;" text="start">
+               <effect>
+                  <Reflection topOpacity="0.29" />
+               </effect>
+            </Button>
+            <TextField fx:id="y1" layoutX="53.0" layoutY="104.0" promptText="player1" />
+            <TextField fx:id="y2" layoutX="53.0" layoutY="149.0" promptText="player 2" />
+            <Label fx:id="winner" layoutX="24.0" layoutY="357.0" prefHeight="45.0" prefWidth="228.0" text="Win" textFill="#6f4cd0">
+               <font>
+                  <Font size="22.0" />
+               </font></Label>
+            <Label layoutX="247.0" layoutY="76.0" text="Play As" />
+            <Label layoutX="247.0" layoutY="108.0" text="xo1" fx:id="xo1" />
+            <Label layoutX="247.0" layoutY="153.0" text="Label" fx:id="xo2" />
+            <Label fx:id="lname1" layoutX="35.0" layoutY="108.0" prefHeight="17.0" prefWidth="141.0" text="player1" />
+            <Label fx:id="lname2" layoutX="35.0" layoutY="145.0" prefHeight="17.0" prefWidth="141.0" text="playe2" />
+            <FontAwesomeIcon iconName="CLOSE" layoutX="307.0" layoutY="24.0" onMouseClicked="#close_on" size="1.5em" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="b1" layoutX="150.0" layoutY="180.0" mnemonicParsing="false" onAction="#button_on" prefHeight="42.0" prefWidth="52.0" textFill="#941c68">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="b2" layoutX="217.0" layoutY="180.0" mnemonicParsing="false" onAction="#button_on" prefHeight="42.0" prefWidth="52.0" textFill="#941c68">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="b3" layoutX="282.0" layoutY="180.0" mnemonicParsing="false" onAction="#button_on" prefHeight="42.0" prefWidth="52.0" textFill="#941c68">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="b6" layoutX="282.0" layoutY="237.0" mnemonicParsing="false" onAction="#button_on" prefHeight="42.0" prefWidth="52.0" textFill="#941c68">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="b5" layoutX="217.0" layoutY="237.0" mnemonicParsing="false" onAction="#button_on" prefHeight="42.0" prefWidth="52.0" textFill="#941c68">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="b4" layoutX="150.0" layoutY="237.0" mnemonicParsing="false" onAction="#button_on" prefHeight="42.0" prefWidth="52.0" textFill="#941c68">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="b7" layoutX="150.0" layoutY="294.0" mnemonicParsing="false" onAction="#button_on" prefHeight="42.0" prefWidth="52.0" textFill="#941c68">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="b8" layoutX="217.0" layoutY="294.0" mnemonicParsing="false" onAction="#button_on" prefHeight="42.0" prefWidth="52.0" textFill="#941c68">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="b9" layoutX="282.0" layoutY="294.0" mnemonicParsing="false" onAction="#button_on" prefHeight="42.0" prefWidth="52.0" textFill="#941c68">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Polygon fill="#77b0e4" layoutX="105.0" layoutY="105.0" points="-105.0, 15.0, 289.0, -105.0, -105.0, -105.0" stroke="WHITE" strokeType="INSIDE" />
+      <Button fx:id="replay" layoutX="308.0" layoutY="376.0" mnemonicParsing="false" onAction="#button_on" prefHeight="38.0" prefWidth="64.0" text="Replay" />
+      <Label layoutX="183.0" layoutY="25.0" />
+      <Label layoutX="151.0" layoutY="62.0" prefHeight="64.0" prefWidth="72.0" text="Turn :" textFill="#395282">
+         <font>
+            <Font name="Bauhaus 93" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="lturn" layoutX="276.0" layoutY="62.0" prefHeight="64.0" prefWidth="64.0" text="X">
+         <font>
+            <Font name="Baskerville Old Face" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

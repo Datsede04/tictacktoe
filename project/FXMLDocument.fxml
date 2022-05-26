@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="parent" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="460.0" prefWidth="709.0" style="-fx-background-color: coral;" styleClass="parent" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.FXMLDocumentController">
+   <children>
+      <Label blendMode="OVERLAY" cache="true" layoutX="226.0" layoutY="129.0" prefHeight="54.0" prefWidth="228.0" text="Toc Tac Toe" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="183.0" prefHeight="17.0" prefWidth="153.0" text="Loding..." textFill="#ebebeb" />
+      <FontAwesomeIcon iconName="CLOSE" layoutX="680.0" layoutY="20.0" onMouseClicked="#close_app" size="1.5em" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

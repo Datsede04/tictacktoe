@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+
+<AnchorPane id="AnchorPane" fx:id="bigpane" prefHeight="452.0" prefWidth="684.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="classwork.HalfMoonController">
+   <children>
+      <Circle fx:id="moon" fill="#d0d5da" layoutX="110.0" layoutY="191.0" onMouseClicked="#action" radius="54.0" stroke="WHITE" strokeType="INSIDE" />
+      <Circle fill="#eee9e9" layoutX="126.0" layoutY="180.0" radius="37.0" stroke="#f5f0f0" strokeType="INSIDE" />
+      <AnchorPane fx:id="smallpane" layoutX="164.0" layoutY="23.0" prefHeight="147.0" prefWidth="274.0">
+         <children>
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="28.0" layoutY="60.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="7.0" layoutY="44.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="140.0" layoutY="94.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="159.0" layoutY="37.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="140.0" layoutY="54.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="71.0" layoutY="78.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="104.0" layoutY="67.0" text="" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="49.0" layoutY="31.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="39.0" layoutY="84.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="315.0" layoutY="30.0" selectionFill="#ffa100" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="183.0" layoutY="74.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="225.0" layoutY="54.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="115.0" layoutY="127.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="71.0" layoutY="53.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="219.0" layoutY="81.0" />
+            <FontAwesomeIcon fill="#ff6b01" iconName="STAR" layoutX="171.0" layoutY="101.0" />
+            <FontAwesomeIcon fill="#ff7700" iconName="STAR" layoutX="110.0" layoutY="32.0" />
+            <FontAwesomeIcon fill="#ff8400" iconName="STAR" layoutX="271.0" layoutY="96.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
